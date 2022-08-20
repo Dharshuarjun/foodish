@@ -1,0 +1,26 @@
+div{
+    margin-top: 10%;
+}
+#txt{
+    color:blue;
+    font-size: 25px;
+}
+button{
+    font-size: 25px;
+    background: rgb(54, 151, 170);
+}
+#food{
+    margin:3%;
+    font-size: 20px;
+    color:rgb(155, 25, 202);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+}
+h1{
+    color:darkblue;
+}
+h3{
+    color:rgb(97, 25, 99);
+    margin-right:3%;
+}

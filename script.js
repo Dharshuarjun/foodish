@@ -1,7 +1,11 @@
 var div=document.createElement("div");
-div.innerHTML=`<input type="text"id="txt">
+div.innerHTML=`
+<h1>Foodish</h1>
+<h3>Enter a food name:(idly,dosa,pizza,burger etc..)</h3>
+<input type="text"id="txt">
 <button type="button" onclick="foo()">Search</button>
 <div id="food"></div>`;
+div.style.textAlign="center";
 document.body.append(div);
 
 async function foo(){
@@ -11,6 +15,6 @@ async function foo(){
     let res1= await res.json();
     result=res1.image;
     console.log(result);
-    document.getElementById("food").innerText=result;
+    document.getElementById("food").innerText=`URL=${result}`;
 
 }
