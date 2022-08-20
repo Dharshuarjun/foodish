@@ -14,4 +14,3 @@ async function foo(){
     document.getElementById("food").innerText=result;
 
 }
-foo();
